@@ -3,8 +3,8 @@
 A web app for hospital staff to manage admitted patients: add, view, search, filter, edit, discharge and delete.
 Built for the DScribe (Unriddle Technologies) Software Engineer Intern – Round 1 task.
 
-**Live app:** `<PASTE FRONTEND URL>`
-**Backend API:** `<PASTE BACKEND URL>/api/patients`
+**Live app:** `https://patient-admission-app-pi.vercel.app`
+**Backend API:** `https://patient-admission-app-mki8.onrender.com/api/patients`
 
 ## Tech stack
 
