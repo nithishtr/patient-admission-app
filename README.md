@@ -82,7 +82,7 @@ Note: Render's free tier sleeps when idle, so the first request after a pause ca
 
 | Desktop | Mobile |
 |---|---|
-| ![Desktop](screenshots/DesktopImage.png) | ![Mobile](screenshots/MobileImage.jpeg) |
+| ![Desktop](screenshots/DesktopImage.png) | ![Mobile](screenshots/MobileImages.jpeg) |
 
 ## Project structure
 
