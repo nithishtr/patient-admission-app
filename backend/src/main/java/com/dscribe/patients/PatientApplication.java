@@ -1,0 +1,27 @@
+package com.dscribe.patients;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.servlet.config.annotation.CorsRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+@SpringBootApplication
+public class PatientApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(PatientApplication.class, args);
+    }
+
+    @Bean
+    WebMvcConfigurer cors(@Value("${app.cors-origins}") String origins) {
+        return new WebMvcConfigurer() {
+            @Override
+            public void addCorsMappings(CorsRegistry registry) {
+                registry.addMapping("/api/**")
+                        .allowedOriginPatterns(origins.split(","))
+                        .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS");
+            }
+        };
+    }
+}
