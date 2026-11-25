@@ -82,7 +82,7 @@ Note: Render's free tier sleeps when idle, so the first request after a pause ca
 
 | Desktop | Mobile |
 |---|---|
-| ![Desktop]("C:\Users\Nithish T R\Downloads\DesktopImage.png") | ![Mobile](screenshots/mobile.png) |
+| ![Desktop](C:\Users\Nithish T R\Downloads\DesktopImage.png) | ![Mobile](screenshots/mobile.png) |
 
 ## Project structure
 
